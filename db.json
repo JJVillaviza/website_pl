@@ -1,0 +1,234 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "company_name": "MetroTech Solutions",
+      "line_of_business": "IT Firm"
+    }
+  ],
+  "branches": [
+    {
+      "id": 1,
+      "company_id": 1,
+      "branch_name": "Makati Central",
+      "branch_type": "Headquarters",
+      "status": "active",
+      "contact_number": "+63 912 345 6789",
+      "emails": [
+        "info@metrotech.com",
+        "support@metrotech.com",
+        "sales@metrotech.com"
+      ],
+      "address": "123 Perea Street, Legaspi Village, Makati City, Metro Manila, Philippines",
+      "latitude": 14.5559,
+      "longitude": 121.0173,
+      "username": "makati.central_user",
+      "password": "M@katiC#ntr@l123"
+    },
+    {
+      "id": 2,
+      "company_id": 1,
+      "branch_name": "Quezon City East",
+      "branch_type": "Branch",
+      "status": "active",
+      "contact_number": "+63 917 987 6543",
+      "email": "qc.east@metrotech.com",
+      "address": "456 Katipunan Avenue, Loyola Heights, Quezon City, Metro Manila, Philippines",
+      "latitude": 14.6383,
+      "longitude": 121.0734,
+      "username": "qc.east_user",
+      "password": "QCE@st#123"
+    },
+    {
+      "id": 3,
+      "company_id": 1,
+      "branch_name": "Manila West",
+      "branch_type": "Branch",
+      "status": "active",
+      "contact_number": "+63 925 123 4567",
+      "email": "manila.west@metrotech.com",
+      "address": "789 Taft Avenue, Ermita, Manila, Philippines",
+      "latitude": 14.5764,
+      "longitude": 120.9881,
+      "username": "manila.west_user",
+      "password": "M@n!laW3st#456"
+    },
+    {
+      "id": 4,
+      "company_id": 1,
+      "branch_name": "Taguig South",
+      "branch_type": "Branch",
+      "status": "inactive",
+      "contact_number": "+63 933 456 7890",
+      "email": "taguig.south@metrotech.com",
+      "address": "101 Bonifacio Global City, Taguig City, Metro Manila, Philippines",
+      "latitude": 14.5535,
+      "longitude": 121.046,
+      "username": "taguig.south_user",
+      "password": "T@gu!gS0uth#789"
+    },
+    {
+      "id": 5,
+      "company_id": 1,
+      "branch_name": "Pasig North",
+      "branch_type": "Branch",
+      "status": "active",
+      "contact_number": "+63 919 876 5432",
+      "email": "pasig.north@metrotech.com",
+      "address": "234 Ortigas Avenue, Pasig City, Metro Manila, Philippines",
+      "latitude": 14.5866,
+      "longitude": 121.0708,
+      "username": "pasig.north_user",
+      "password": "P@s!gN0rth#012"
+    },
+    {
+      "id": 6,
+      "company_id": 1,
+      "branch_name": "Mandaluyong Central",
+      "branch_type": "Branch",
+      "status": "inactive",
+      "contact_number": "+63 927 654 3210",
+      "email": "mandaluyong.central@metrotech.com",
+      "address": "345 Shaw Boulevard, Mandaluyong City, Metro Manila, Philippines",
+      "latitude": 14.5793,
+      "longitude": 121.0491,
+      "username": "mandaluyong.central_user",
+      "password": "M@nd@luy0ngC#ntr@l#345"
+    },
+    {
+      "id": 7,
+      "company_id": 1,
+      "branch_name": "Parañaque West",
+      "branch_type": "Branch",
+      "status": "active",
+      "contact_number": "+63 932 987 6543",
+      "email": "paranaque.west@metrotech.com",
+      "address": "567 Alabang-Zapote Road, Parañaque City, Metro Manila, Philippines",
+      "latitude": 14.4515,
+      "longitude": 121.0012,
+      "username": "paranaque.west_user",
+      "password": "P@r@n@qu3W3st#678"
+    },
+    {
+      "id": 8,
+      "company_id": 1,
+      "branch_name": "Pasay South",
+      "branch_type": "Branch",
+      "status": "active",
+      "contact_number": "+63 926 345 6789",
+      "email": "pasay.south@metrotech.com",
+      "address": "678 Roxas Boulevard, Pasay City, Metro Manila, Philippines",
+      "latitude": 14.537,
+      "longitude": 120.9822,
+      "username": "pasay.south_user",
+      "password": "P@s@yS0uth#901"
+    },
+    {
+      "id": 9,
+      "company_id": 1,
+      "branch_name": "Marikina East",
+      "branch_type": "Branch",
+      "status": "inactive",
+      "contact_number": "+63 935 678 9012",
+      "email": "marikina.east@metrotech.com",
+      "address": "789 Shoe Avenue, Marikina City, Metro Manila, Philippines",
+      "latitude": 14.6342,
+      "longitude": 121.1057,
+      "username": "marikina.east_user",
+      "password": "M@r1k!n@E@st#234"
+    },
+    {
+      "id": 10,
+      "company_id": 1,
+      "branch_name": "San Juan Central",
+      "branch_type": "Branch",
+      "status": "active",
+      "contact_number": "+63 918 234 5678",
+      "email": "san.juan.central@metrotech.com",
+      "address": "890 Wilson Street, San Juan City, Metro Manila, Philippines",
+      "latitude": 14.6045,
+      "longitude": 121.037,
+      "username": "san.juan.central_user",
+      "password": "S@nJu@nC3ntr@l#567"
+    }
+  ],
+  "employee_in_charge": [
+    {
+      "id": 1,
+      "branch_id": 1,
+      "employee": "John Doe",
+      "position": "Operations Manager"
+    },
+    {
+      "id": 2,
+      "branch_id": 1,
+      "employee": "Jane Smith",
+      "position": "Operations Manager"
+    },
+    {
+      "id": 3,
+      "branch_id": 1,
+      "employee": "Michael Johnson",
+      "position": "Operations Manager"
+    },
+    {
+      "id": 4,
+      "branch_id": 1,
+      "employee": "Sarah Lee",
+      "position": "Operations Manager"
+    },
+    {
+      "id": 5,
+      "branch_id": 1,
+      "employee": "David Brown",
+      "position": "Operations Manager"
+    },
+    {
+      "id": 6,
+      "branch_id": 1,
+      "employee": "Emily Green",
+      "position": "Operations Manager"
+    },
+    {
+      "id": 7,
+      "branch_id": 1,
+      "employee": "Robert White",
+      "position": "Operations Manager"
+    },
+    {
+      "id": 8,
+      "branch_id": 1,
+      "employee": "Jessica Taylor",
+      "position": "Operations Manager"
+    },
+    {
+      "id": 9,
+      "branch_id": 1,
+      "employee": "Kevin Clark",
+      "position": "Operations Manager"
+    },
+    {
+      "id": 10,
+      "branch_id": 1,
+      "employee": "Anna Martinez",
+      "position": "Operations Manager"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "company_id": 1,
+      "list": [
+        "IT Services",
+        "Network Security",
+        "Cloud Computing",
+        "Software Development",
+        "Mobile App Development",
+        "Web Design",
+        "Digital Marketing",
+        "SEO Services",
+        "Social Media Management"
+      ]
+    }
+  ]
+}
