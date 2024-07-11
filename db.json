@@ -230,5 +230,13 @@
         "Social Media Management"
       ]
     }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "company_id": 1,
+      "branch_id": 3,
+      "services": "Network Security"
+    }
   ]
 }
